@@ -1,6 +1,5 @@
 # code your #valid_move? method here
 board = Array.new(9, " " || "")
-puts "Player "X", where would you like to go?"
 
 def valid_move?(board, index)
   if index.between(0, 8)
